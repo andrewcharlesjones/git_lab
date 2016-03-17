@@ -22,7 +22,11 @@ public class Main {
 		
 		System.out.println("Sorted Array:");
 		//TODO: sort the array and print out its contents
-		
+		sortedArray = InsertionSort.sort(unsortedArray);
+		for (int i: sortedArray) {
+				System.out.print(i + " ");
+		}
+		System.out.println();
 		
 	}
 
