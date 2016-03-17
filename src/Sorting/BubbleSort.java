@@ -6,7 +6,7 @@ public class BubbleSort {
 	 * @param array		an unsorted array of integers
 	 * @return					the input array, sorted least to greatest
 	 */
-  public static int[] bubbleSort(int array[]) {
+  public static int[] bubble(int array[]) {
     boolean unsorted = true;
     int holder;
     
